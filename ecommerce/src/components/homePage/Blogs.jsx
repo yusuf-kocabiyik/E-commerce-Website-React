@@ -1,4 +1,4 @@
-import { blogData } from "../data/blogData"
+import { blogData } from "../../data/homePageData/blogData"
 import { BlogItem } from "./BlogItem"
 export const Blogs = ()=>{
     const blogs = blogData.blogs

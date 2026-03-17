@@ -1,5 +1,5 @@
 
-import { shopCardsData } from "../data/shopCardsData"
+import { shopCardsData } from "../../data/homePageData/shopCardsData"
 export const ShopCards = ()=>{
 
 

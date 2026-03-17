@@ -2,7 +2,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper/modules";
 
-import {homeSliderData} from "../data/homeSliderData.js"
+import {homeSliderData} from "../../data/homePageData/homeSliderData.js"
 
 import "swiper/css";
 import "swiper/css/pagination";

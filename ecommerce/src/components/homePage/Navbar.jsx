@@ -77,7 +77,7 @@ export const Navbar = ()=>{
           <div  ref={shopRef} className="relative">
             <button
                 onClick={() => setDesktopShopOpen(!desktopShopOpen)}
-                className="flex items-center gap-1 text-gray-600"
+                className="flex items-center gap-1 cursor-pointer text-gray-600"
             >
                 Shop
                 <ChevronDown className="w-4 h-4" />

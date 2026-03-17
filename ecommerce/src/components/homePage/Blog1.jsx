@@ -1,4 +1,4 @@
-import { blogData } from "../data/blogData"
+import { blogData } from "../../data/homePageData/blogData"
 
 export const Blog1 =()=>{
 

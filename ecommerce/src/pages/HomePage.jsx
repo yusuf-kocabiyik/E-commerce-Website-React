@@ -1,12 +1,12 @@
 import { useDispatch, useSelector } from "react-redux"
 import { addToCart } from "../store/actions/cartActions";
-import  HomeSlider1  from "../components/HomeSlider1";
+import  HomeSlider1  from "../components/homePage/HomeSlider1";
 import React from 'react';
-import { ShopCards } from "../components/ShopCards";
-import { ProductCards } from "../components/ProductCards";
-import HomeSlider2 from "../components/HomeSlider2";
-import { Blog1 } from "../components/Blog1";
-import { Blogs } from "../components/Blogs";
+import { ShopCards } from "../components/homePage/ShopCards";
+import { ProductCards } from "../components/homePage/ProductCards";
+import HomeSlider2 from "../components/homePage/HomeSlider2";
+import { Blog1 } from "../components/homePage/Blog1";
+import { Blogs } from "../components/homePage/Blogs";
 
 
 

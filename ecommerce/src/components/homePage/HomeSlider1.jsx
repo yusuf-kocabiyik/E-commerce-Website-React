@@ -1,11 +1,12 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper/modules";
 
-import {homeSliderData} from "../data/homeSliderData.js"
+import {homeSliderData} from "../../data/homePageData/homeSliderData.js"
 
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import { Link } from "react-router-dom/cjs/react-router-dom.min.js";
 
 export default function HomeSlider() {
     /* bg-position-[-15rem] */
@@ -57,9 +58,9 @@ export default function HomeSlider() {
                 {slide.description}
               </p>
 
-              <button className="bg-success text-white px-6 py-3 text-lg rounded-lg font-semibold w-50">
+              <Link to="/shop" className="bg-success cursor-pointer text-center text-white px-6 py-3 text-lg rounded-lg font-semibold w-50">
                 {slide.buttonText}
-              </button>
+              </Link>
             </div>
           </div>
         </SwiperSlide>
